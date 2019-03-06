@@ -79,7 +79,7 @@ $(function() {
 
     });
 
-    $('.shopko').slideUp();
+    $('.shopko').hide();
     $('.ventana-shopko .customer a').on('click', function() {
 
 
@@ -97,14 +97,14 @@ $(function() {
 
         var enlace = $(this).attr('href');
 
-        $(enlace).fadeIn(500);
+        $(enlace).fadeIn(0);
 
     });
 
     $('.titulo a').on('click', function() {
 
         var enlace = $(this).attr('href');
-        $(enlace).fadeOut(500);
+        $(enlace).fadeOut(0);
     });
 
 
