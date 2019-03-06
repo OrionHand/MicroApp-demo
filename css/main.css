@@ -248,20 +248,48 @@
                                             /*VISTA DE DETALLE*/
                                             
                                             div.contenedor-detalle {
-                                                width: 420px;
+                                                width: 425px;
                                                 font-family: 'Helvetica 55 Roman';
                                                 margin-left: 30px;
-                                                margin-top: 30px;
-                                                border: 1px solid #F3F2F3;
+                                                margin-top: 0px;
                                                 border-radius: 0 0 2px 2px;
                                                 background-color: #FFFFFF;
-                                                box-shadow: 0 2px 5px 0 rgba(176, 176, 176, 0.5);
+                                                /* box-shadow: 0 2px 5px 0 rgba(176, 176, 176, 0.5);*/
+                                            }
+                                            
+                                            div.triangulo:before {
+                                                content: '';
+                                                border-style: solid;
+                                                border-width: 18px 18px 18px 0px;
+                                                border-color: transparent rgba(77, 76, 76, 0.7) transparent transparent;
+                                                position: absolute;
+                                                margin-top: 40px;
+                                                margin-left: -24px;
+                                            }
+                                            
+                                            div#border {
+                                                border-left: 1px solid rgba(128, 128, 128, 0.7);
+                                                border-right: 1px solid rgba(128, 128, 128, 0.7);
+                                                border-bottom: 1px solid rgba(128, 128, 128, 0.7);
+                                                padding: 0px 5px 0px 5px;
+                                            }
+                                            
+                                            div.triangulo2:before {
+                                                content: '';
+                                                border-style: solid;
+                                                border-width: 18px 18px 18px 0px;
+                                                border-color: transparent white transparent transparent;
+                                                position: absolute;
+                                                margin-top: 40px;
+                                                margin-left: -23px;
                                             }
                                             
                                             div.titulo {
                                                 display: flex;
-                                                border-bottom: 1px solid rgb(236, 223, 223);
+                                                border-bottom: 2px solid rgb(236, 223, 223);
                                                 height: 60px;
+                                                margin-bottom: 15px;
+                                                padding-bottom: 10px;
                                             }
                                             
                                             div.titulo p {
@@ -274,17 +302,17 @@
                                             
                                             div.titulo a {
                                                 width: 10%;
-                                                padding: 20px 5px 10px 5px;
-                                                font-size: 20px;
+                                                padding: 15px 5px 20px 5px;
+                                                font-size: 23px;
                                                 color: rgb(177, 171, 171);
                                             }
                                             
                                             div.customer {
-                                                margin-top: 10px;
+                                                margin-top: 0px;
                                                 display: flex;
                                                 background-color: rgb(241, 238, 238);
                                                 height: 35px;
-                                                margin-bottom: 10px;
+                                                margin-bottom: 0px;
                                             }
                                             
                                             div.customer p {
@@ -295,12 +323,27 @@
                                                 font-weight: bold;
                                             }
                                             
+                                            div.ventana-hy-vee {
+                                                border: 1px solid #DDDDDD;
+                                                margin-bottom: 10px;
+                                            }
+                                            
+                                            div.ventana-kroger {
+                                                border: 1px solid #DDDDDD;
+                                                margin-bottom: 10px;
+                                            }
+                                            
+                                            div.ventana-shopko {
+                                                border: 1px solid #DDDDDD;
+                                                margin-bottom: 10px;
+                                            }
+                                            
                                             div.customer a {
                                                 width: 10%;
                                                 padding-left: 15px;
                                                 padding-top: 0px;
-                                                color: #9B9B9B;
-                                                font-size: 20px;
+                                                color: rgb(209, 21, 21);
+                                                font-size: 24px;
                                             }
                                             
                                             nav.navegacion2 {
